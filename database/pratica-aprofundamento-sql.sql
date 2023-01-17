@@ -97,3 +97,9 @@ ORDER BY attack ASC;
 SELECT * FROM pokemons
 LIMIT 3
 OFFSET 2;
+
+SELECT * FROM pokemons
+WHERE type = 'fire' OR type = 'grass'
+ORDER BY attack ASC
+LIMIT 3
+OFFSET 2;
